@@ -1,0 +1,30 @@
+# Site settings
+title: Font Generator
+description: A font generator, thats it yea.
+url: https://emanuelplays.github.io  # Your site's URL
+baseurl: ""  # Leave empty if not using a subdirectory
+
+# Author information
+author:
+  name: EmanuelPlays
+  location: Italy
+
+# Social media links
+social:
+  twitter: @EmanuelPlays_
+  github: EmanuelPlays
+ 
+
+# Build settings
+markdown: kramdown  # Markdown processor
+theme: minima  # Theme name (you can choose any supported theme)
+
+# Plugins (if needed)
+plugins:
+  - jekyll-feed  # For RSS feed
+  - jekyll-seo-tag  # For SEO tags
+
+# Other settings
+permalink: pretty  # URL structure
+exclude:
+  - README.md  # Files to exclude from the build
